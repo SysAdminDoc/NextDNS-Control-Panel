@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "NextDNS Ultimate Control Panel",
+  "version": "1.2",
+  "description": "Adds a powerful control panel to the NextDNS website for advanced filtering and management.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://my.nextdns.io/*",
+    "https://api.nextdns.io/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://my.nextdns.io/*"
+      ],
+      "js": [ "script.js" ]
+    }
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
