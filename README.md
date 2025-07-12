@@ -194,7 +194,7 @@ The extension's settings are stored in your browser's local storage. Here are th
 
 ## Screenshots
 
-*(This section would include screenshots or GIFs demonstrating the UI. As a language model, I cannot generate images.)*
+*(This section will include screenshots or GIFs demonstrating the UI.)*
 
 -----
 
